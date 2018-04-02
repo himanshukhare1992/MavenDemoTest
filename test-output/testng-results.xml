@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2018-03-26T07:50:59Z" finished-at="2018-03-26T07:50:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2018-03-26T07:50:59Z" finished-at="2018-03-26T07:50:59Z">
+      <class name="com.qa.test.DemoTest">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest@548b7f67]" name="div" duration-ms="30" started-at="2018-03-26T13:20:59Z" finished-at="2018-03-26T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest@548b7f67]" name="mul" duration-ms="5" started-at="2018-03-26T13:20:59Z" finished-at="2018-03-26T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest@548b7f67]" name="sub" duration-ms="2" started-at="2018-03-26T13:20:59Z" finished-at="2018-03-26T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.DemoTest@548b7f67]" name="sum" duration-ms="5" started-at="2018-03-26T13:20:59Z" finished-at="2018-03-26T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
