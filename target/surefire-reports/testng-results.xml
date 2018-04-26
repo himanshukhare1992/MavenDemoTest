@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qa.test.DemoTest" duration-ms="90" started-at="2018-03-26T10:13:40Z" finished-at="2018-03-26T10:13:41Z">
+  <suite name="Maven TestSuite" duration-ms="72" started-at="2018-04-21T07:00:48Z" finished-at="2018-04-21T07:00:48Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="90" started-at="2018-03-26T10:13:40Z" finished-at="2018-03-26T10:13:41Z">
+    <test name="Test" duration-ms="72" started-at="2018-04-21T07:00:48Z" finished-at="2018-04-21T07:00:48Z">
       <class name="com.qa.test.DemoTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest@17c68925]" name="div" duration-ms="40" started-at="2018-03-26T15:43:40Z" finished-at="2018-03-26T15:43:40Z">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest@2d6e8792]" name="div" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest@17c68925]" name="mul" duration-ms="1" started-at="2018-03-26T15:43:40Z" finished-at="2018-03-26T15:43:41Z">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest@2d6e8792]" name="mul" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest@17c68925]" name="sub" duration-ms="1" started-at="2018-03-26T15:43:41Z" finished-at="2018-03-26T15:43:41Z">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest@2d6e8792]" name="sub" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.DemoTest@17c68925]" name="sum" duration-ms="1" started-at="2018-03-26T15:43:41Z" finished-at="2018-03-26T15:43:41Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.DemoTest@2d6e8792]" name="sum" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.test.DemoTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- com.qa.test.DemoTest -->
+      <class name="com.qa.test.DemoTest2">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest2@17f6480]" name="div" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest2@17f6480]" name="mul" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest2@17f6480]" name="sub" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.DemoTest2@17f6480]" name="sum" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.DemoTest2 -->
+      <class name="com.qa.test.DemoTest3">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.DemoTest3@7a0ac6e3]" name="div" duration-ms="14" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.DemoTest3@7a0ac6e3]" name="mul" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.DemoTest3@7a0ac6e3]" name="sub" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.DemoTest3@7a0ac6e3]" name="sum" duration-ms="0" started-at="2018-04-21T12:30:48Z" finished-at="2018-04-21T12:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.DemoTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Maven TestSuite -->
 </testng-results>

@@ -5,13 +5,16 @@ import org.testng.annotations.Test;
 
 public class DemoTest 
 {
+	
 	@Test
 	public void sum()
 	{
+		
 		System.out.println("===SUM Method===");
 		int a=10; 
 		int b =20;
 		Assert.assertEquals(30, a+b);
+		System.out.println("---------------1st Class-------------------");
 	}
 	
 	
@@ -37,10 +40,13 @@ public class DemoTest
 	@Test
 	public void div()
 	{
-		System.out.println("===Divison Method===");
+		System.out.println("---------------1st Class-------------------");
+		System.out.println("\n\n===Divison Method===");
 		int a=10; 
 		int b=20;
 		Assert.assertEquals(2, b/a);
+		
+		
 	}
 	
 	
